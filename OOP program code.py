@@ -13,6 +13,7 @@ num2 = ui.ask_num2()
 
 # create instances for operations
 sum = calc.add(num1, num2)
+difference = calc.subtract(num1, num2)
 
 # call method to print result
 # call method for retry
