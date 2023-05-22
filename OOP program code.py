@@ -18,4 +18,6 @@ product = calc.multiply(num1, num2)
 quotient = calc.divide(num1, num2)
 
 # call method to print result
+ui.print_result(operation, sum, difference, product, quotient)
+
 # call method for retry
