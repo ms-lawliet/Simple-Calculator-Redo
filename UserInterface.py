@@ -14,7 +14,7 @@ class UserInterface:
         num2 = float(input("Enter second number: "))
         return num2
 
-    # display result
+    # display result based on chosen operation
     # ask if user wants to retry
     # if yes, repeat process
     # if no, print "Thank you!"

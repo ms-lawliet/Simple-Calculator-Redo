@@ -16,4 +16,6 @@ class SimpleCalculator:
         return product
 
     # for division,
-    # else, invalid operation
+    def divide(self, num1, num2):
+        quotient = num1 / num2
+        return quotient

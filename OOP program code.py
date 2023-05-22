@@ -15,6 +15,7 @@ num2 = ui.ask_num2()
 sum = calc.add(num1, num2)
 difference = calc.subtract(num1, num2)
 product = calc.multiply(num1, num2)
+quotient = calc.divide(num1, num2)
 
 # call method to print result
 # call method for retry
