@@ -16,6 +16,9 @@ elif operation == "subtraction":
     difference = num1 - num2
     print(f"The difference is {difference}.")
 # for multiplication,
+elif operation == "multiplication":
+    product = num1 * num2
+    print(f"The product is {product}.")
 # for division,
 # ask if user wants to retry
 # if yes, repeat process
