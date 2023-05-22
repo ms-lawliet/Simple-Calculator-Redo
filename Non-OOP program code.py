@@ -5,8 +5,12 @@ operation = input("Enter operation to be used: ")
 # ask for user input
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
+
 # perform operation
 # for addition,
+if operation == "addition":
+    sum = num1 + num2
+    print(f"The sum is {sum}.")
 # for subtraction,
 # for multiplication,
 # for division,
