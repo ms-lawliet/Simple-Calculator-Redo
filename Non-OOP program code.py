@@ -20,6 +20,9 @@ elif operation == "multiplication":
     product = num1 * num2
     print(f"The product is {product}.")
 # for division,
+elif operation == "division":
+    quotient = num1 / num2
+    print(f"The quotient is {quotient}.")
 # ask if user wants to retry
 # if yes, repeat process
 # if no, print "Thank you!"
