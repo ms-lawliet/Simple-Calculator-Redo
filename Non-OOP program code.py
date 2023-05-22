@@ -12,6 +12,9 @@ if operation == "addition":
     sum = num1 + num2
     print(f"The sum is {sum}.")
 # for subtraction,
+elif operation == "subtraction":
+    difference = num1 - num2
+    print(f"The difference is {difference}.")
 # for multiplication,
 # for division,
 # ask if user wants to retry
