@@ -17,16 +17,25 @@ class UserInterface:
     # display result based on chosen operation
     def print_result(self, operation, sum, difference, product, quotient):
         if operation == "addition":
-            print(f"The sum is {sum}.")
+            print(f"The sum is {sum}")
         elif operation == "subtraction":
-            print(f"The difference is {difference}.")
+            print(f"The difference is {difference}")
         elif operation == "multiplication":
-            print(f"The product is {product}.")
+            print(f"The product is {product}")
         elif operation == "division":
-            print(f"The quotient is {quotient}.")
+            print(f"The quotient is {quotient}")
         else:
             print("Invalid operation. Try again.")
 
-    # ask if user wants to retry
-    # if yes, repeat process
-    # if no, print "Thank you!"
+    def retry(self):
+        # ask if user wants to retry
+        retry = input("Would you like to retry? ").lower()
+        # if yes, repeat process
+        if retry == "yes":
+            return True
+        # if no, print "Thank you"
+        elif retry == "no":
+            print("Thank you!")
+            return False
+        else:
+            print("Yes or no only.")
