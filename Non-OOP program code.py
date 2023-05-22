@@ -1,7 +1,8 @@
 # Create a Simple App Calculator
 
 # ask for operation
-# ask user for two numbers
+operation = input("Enter operation to be used: ")
+# ask for user input
 # perform operation
 # for addition,
 # for subtraction,
