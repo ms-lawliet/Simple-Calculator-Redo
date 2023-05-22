@@ -23,6 +23,9 @@ elif operation == "multiplication":
 elif operation == "division":
     quotient = num1 / num2
     print(f"The quotient is {quotient}.")
+# else, invalid operation
+else:
+    print("Operation is invalid.")
 # ask if user wants to retry
 # if yes, repeat process
 # if no, print "Thank you!"
