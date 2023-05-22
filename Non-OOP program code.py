@@ -3,6 +3,8 @@
 # ask for operation
 operation = input("Enter operation to be used: ")
 # ask for user input
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 # perform operation
 # for addition,
 # for subtraction,
