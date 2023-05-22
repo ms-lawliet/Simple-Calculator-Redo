@@ -26,8 +26,8 @@ elif operation == "division":
 # else, invalid operation
 else:
     print("Operation is invalid.")
-    
+
 # ask if user wants to retry
-retry = input("Do you want to try again? ").lower()
+retry = input("Do you want to try again? (yes or no) ").lower()
 # if yes, repeat process
 # if no, print "Thank you!"
