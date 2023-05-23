@@ -6,6 +6,8 @@ from SimpleCalc import SimpleCalculator
 ui = UserInterface()
 calc = SimpleCalculator()
 
+ui.print_title()
+
 while True:
     # ask for input by calling methods
     operation = ui.ask_operation()
