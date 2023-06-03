@@ -33,7 +33,7 @@ class UserInterface:
             return
 
     # display result based on chosen operation
-    def print_result(self, operation, sum, difference, product, quotient):
+    def print_result(self, operation, sum, difference, product, quotient, power):
         if operation == "addition":
             print(Fore.YELLOW + Back.RESET + Style.BRIGHT + str(sum))
         elif operation == "subtraction":
@@ -42,6 +42,8 @@ class UserInterface:
             print(Fore.BLUE + Back.RESET + Style.BRIGHT + str(product))
         elif operation == "division":
             print(Fore.CYAN + Back.RESET + Style.BRIGHT + str(quotient))
+        elif operation == "power":
+            print(Fore.CYAN + Back.RESET + Style.BRIGHT + str(power))
         else:
             print(Fore.MAGENTA + Back.RESET + Style.BRIGHT + "Invalid operation. Try again.")
 
