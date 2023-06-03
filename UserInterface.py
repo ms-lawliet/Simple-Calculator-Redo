@@ -43,7 +43,7 @@ class UserInterface:
         elif operation == "division":
             print(Fore.CYAN + Back.RESET + Style.BRIGHT + str(quotient))
         elif operation == "power":
-            print(Fore.CYAN + Back.RESET + Style.BRIGHT + str(power))
+            print(Fore.YELLOW + Back.RESET + Style.BRIGHT + str(power))
         else:
             print(Fore.MAGENTA + Back.RESET + Style.BRIGHT + "Invalid operation. Try again.")
 

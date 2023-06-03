@@ -3,7 +3,7 @@ from colorama import Fore, Back, Style
 
 
 class ImprovedCalculator(SimpleCalculator):
-    def power(self, num1, num2):
+    def power(self, num1, num2):   # raise num1 to the power of num2
         try:
             power = num1 ** num2
             return power
