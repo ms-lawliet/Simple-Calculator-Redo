@@ -1,6 +1,5 @@
 # import files
 from UserInterface import UserInterface
-from SimpleCalc import SimpleCalculator
 from ImprovedCalc import ImprovedCalculator
 
 # assign class methods to variables
