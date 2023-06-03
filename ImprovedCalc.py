@@ -9,3 +9,10 @@ class ImprovedCalculator(SimpleCalculator):
             return power
         except TypeError:
             return Fore.RED + Back.RESET + Style.BRIGHT + "Cannot perform operation due to invalid input."
+
+    def nth_root(self, num1, num2):    # find the square root, cube root, fourth root, etc.
+        try:
+            nth_root = num1 ** (1/num2)  # num2 represents the nth root
+            return nth_root
+        except TypeError:
+            return Fore.RED + Back.RESET + Style.BRIGHT + "Cannot perform operation due to invalid input."
